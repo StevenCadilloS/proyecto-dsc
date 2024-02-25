@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Subir</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <h1>Subir Imagen de las Zanahorias</h1>
+    <form action="/upload" method="POST" enctype="multipart/form-data">
+        <input type="file" name="image" id="image-upload" accept="image/*">
+        <label for="image-upload">Seleccionar imagen</label>
+        <button type="submit">Subir</button>
+    </form>
+    <!-- Aquí puedes enlazar tus archivos JavaScript si los tienes -->
+    <script src="app.js"></script>
+</body>
+
+</html>
